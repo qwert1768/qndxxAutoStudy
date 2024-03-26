@@ -122,7 +122,7 @@ if __name__ == '__main__':
                         help='可选，输入此选项后，在学习结束时，会自动向绑定的钉钉机器人发送消息通知。')
     parser.add_argument('-p', '--proxy', action='store_true', default=False,
                         help='自动从代理池中获取代理，若不指定此选项，则不使用代理')
-    parser.add_argument('-s', '--savePic', action='store_true', default=False,
+    parser.add_argument('-s', '--savePic', action='store_true', default=TRUE,
                         help='自动保存学习完成截图，若不指定此选项，则不保存')
     parser.add_argument('-v', '--version', help='输出当前版本号，然后退出程序', action='version',
                         version=f'青年大学习自动学习脚本 版本{VERSION}')
